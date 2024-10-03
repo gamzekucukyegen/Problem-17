@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from 'react'
 
 
@@ -15,6 +16,7 @@ export default function Counter() {
   console.log('Rendering')
   document.title=`${count} kere tıklandı`
   return (
+
     <div className='bg-blue-500/50 h-screen grid place-items-center'>
       <div className='text-orange-500 mx-auto text-center'>
         <h1 className='text-4xl font-bold tracking-tight text-gray-900 pb-8'>

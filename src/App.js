@@ -7,6 +7,7 @@ export default function Counter() {
 
   useEffect(() => {
     console.log('Rendering Sonrası')
+    document.title=`${count} kere tıklandı`
   })
 
   function updateCount() {
@@ -14,7 +15,7 @@ export default function Counter() {
   }
 
   console.log('Rendering')
-  document.title=`${count} kere tıklandı`
+  
   return (
 
     <div className='bg-blue-500/50 h-screen grid place-items-center'>
